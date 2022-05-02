@@ -75,6 +75,7 @@ app.post('/vote', webhook.listener(vote => {
                     }
                 ]
             })
+             // thanks for who noticed me about the webhook url <3
             fetch("webhool_url", {
                 method: 'POST',
                 headers: {
