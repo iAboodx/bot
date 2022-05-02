@@ -3,7 +3,7 @@ const { Client, Intents, MessageEmbed } = require("discord.js");
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MEMBERS, Intents.FLAGS.DIRECT_MESSAGES, Intents.FLAGS.GUILD_MESSAGES] });
 module.exports = client;
 
-client.login('OTQ3ODg5NTY1ODcwNDczMzA3.Yhz08w.eO4sVcPkAQQwjjnzYbQLjOMJ36E')
+client.login('')
 
 const express = require('express')
 const Topgg = require('@top-gg/sdk')
@@ -75,7 +75,7 @@ app.post('/vote', webhook.listener(vote => {
                     }
                 ]
             })
-            fetch("https://discord.com/api/webhooks/959899139322282034/i3EYORP4-GIusRpSRgxvT3pmn18u2_op2TnCxDJsgjvW_R8DlywrXXBCjoX1OOcwk49k", {
+            fetch("webhool_url", {
                 method: 'POST',
                 headers: {
                     'Content-type': 'application/json',
